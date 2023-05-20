@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/main.css">
 <!--    main.js-->
     <script src="js/main.js"></script>
-<!--    fontawesome CDN-->
+<!--    JQuery CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    fontawesome CDN-->
     <script src="https://kit.fontawesome.com/5eb820a637.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -21,16 +23,13 @@
     <div class="nav-wrapper d-flex align-items-center justify-content-between">
         <ul class="nav nav-pills d-none d-md-flex" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="pills-company-tab" data-toggle="pill" href="#pills-company" role="tab" aria-controls="pills-company" aria-selected="true">Company</a>
+                <a class="nav-link active" id="pills-company-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-company" aria-selected="true">PROFILE</a>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" id="pills-product-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">Product</a>
+                <a class="nav-link" id="pills-product-tab" data-toggle="pill" href="#pills-skills" role="tab" aria-controls="pills-product" aria-selected="false">SKILLS</a>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" id="pills-news-tab" data-toggle="pill" href="#pills-news" role="tab" aria-controls="pills-news" aria-selected="false">News</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                <a class="nav-link" id="pills-news-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-news" aria-selected="false">MY PROJECTS</a>
             </li>
         </ul>
 
@@ -48,27 +47,21 @@
     </div>
 
     <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-company" role="tabpanel" aria-labelledby="pills-company-tab">
+        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-company-tab">
             <div class="container-fluid">
-                <h2 class="mb-3 font-weight-bold">Company</h2>
+                <h2 class="mb-3 font-weight-bold">About Me</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo nec ligula viverra, quis facilisis nunc vehicula. Maecenas purus orci, efficitur in dapibus vel, rutrum in massa. Sed auctor urna sit amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet. Ut a blandit elit, vitae volutpat nunc. Nam posuere urna sagittis lectus eleifend viverra. Quisque mauris nunc, viverra vitae sodales non, auctor in diam. Sed dignissim pulvinar sapien sed fermentum. Praesent interdum turpis ut neque tristique ornare. Nam dictum est sed sem elementum rutrum. Nam a mollis turpis.</p>
             </div>
         </div>
-        <div class="tab-pane fade" id="pills-product" role="tabpanel" aria-labelledby="pills-product-tab">
+        <div class="tab-pane fade" id="pills-skills" role="tabpanel" aria-labelledby="pills-product-tab">
             <div class="container-fluid">
-                <h2 class="mb-3 font-weight-bold">Product</h2>
+                <h2 class="mb-3 font-weight-bold">Skills</h2>
                 <p>Sed auctor urna sit amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet. Ut a blandit elit, vitae volutpat nunc. Nam posuere urna sagittis lectus eleifend viverra. Quisque mauris nunc, viverra vitae sodales non, auctor in diam. Sed dignissim pulvinar sapien sed fermentum. Praesent interdum turpis ut neque tristique ornare. Nam dictum est sed sem elementum rutrum. Nam a mollis turpis.</p>
             </div>
         </div>
-        <div class="tab-pane fade" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab">
+        <div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-news-tab">
             <div class="container-fluid">
                 <h2 class="mb-3 font-weight-bold">News</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo nec ligula viverra, quis facilisis nunc vehicula. Maecenas purus orci, efficitur in dapibus vel, rutrum in massa. Sed auctor urna sit amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet.</p>
-            </div>
-        </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-            <div class="container-fluid">
-                <h2 class="mb-3 font-weight-bold">Contact</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo nec ligula viverra, quis facilisis nunc vehicula. Maecenas purus orci, efficitur in dapibus vel, rutrum in massa. Sed auctor urna sit amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet.</p>
             </div>
         </div>
