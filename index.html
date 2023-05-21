@@ -22,24 +22,32 @@
 <body>
 <div class="tabs-to-dropdown">
     <div class="nav-wrapper d-flex align-items-center justify-content-between" style="background-color: antiquewhite">
-
-<!--        LeftSIde tab-->
-        <ul class="nav nav-pills d-none d-md-flex" id="pills-tab" role="tablist">
-
+        <!-- Left side tab -->
+        <ul class="nav nav-pills d-none d-sm-flex" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PROFILE</a>
+                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PROFILE</a>
             </li>
-
             <li class="nav-item" role="presentation">
-                <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SKILL</a>
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SKILL</a>
             </li>
-
             <li class="nav-item" role="presentation">
-                <a class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">PROJECT</a>
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">PROJECT</a>
             </li>
         </ul>
 
-<!--        Social Icons-->
+        <!-- Dropdown for small screens -->
+        <div class="dropdown d-sm-none">
+            <button class="btn btn-secondary dropdown-toggle bg-info" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">PROFILE</a></li>
+                <li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">SKILL</a></li>
+                <li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">PROJECT</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Icons -->
         <ul class="list-group list-group-horizontal">
             <li class="list-group-item">
                 <a href="https://github.com/minhnguyen8989" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -51,12 +59,13 @@
                 <a href="https://www.linkedin.com/in/minh-nguyen-723046263/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </li>
             <li class="list-group-item">
-                <a href="mailto: quangminh.nguyen8989@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="mailto:quangminh.nguyen8989@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             </li>
         </ul>
     </div>
 
-<!--    NavTab Display content-->
+
+        <!--    NavTab Display content-->
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
             <div class="d-flex flex-column align-items-center container-fluid">
