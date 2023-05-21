@@ -5,10 +5,8 @@
     box-sizing: border-box;
 }
 
-body,
-.tabs-to-dropdown .dropdown-toggle,
-.tabs-to-dropdown .dropdown-item {
-    font-size: 1.3rem;
+body {
+    background-color: floralwhite;
 }
 
 .tabs-to-dropdown .nav-wrapper {
@@ -45,10 +43,4 @@ body,
 
 .tabs-to-dropdown .dropdown-item:active {
     color: wheat;
-}
-
-@media (min-width: 1280px) {
-    .tabs-to-dropdown .nav-wrapper {
-        padding: 15px 30px;
-    }
 }
