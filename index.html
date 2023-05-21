@@ -25,25 +25,25 @@
         <!-- Left side tab -->
         <ul class="nav nav-pills d-none d-sm-flex" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PROFILE</a>
+                <a class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="true">PROFILE</a>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">SKILL</a>
+                <a class="nav-link" id="nav-skill-tab" data-bs-toggle="tab" data-bs-target="#nav-skill" type="button" role="tab" aria-controls="nav-skill" aria-selected="false">SKILL</a>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">PROJECT</a>
+                <a class="nav-link" id="nav-project-tab" data-bs-toggle="tab" data-bs-target="#nav-project" type="button" role="tab" aria-controls="nav-project" aria-selected="false">PROJECT</a>
             </li>
         </ul>
 
         <!-- Dropdown for small screens -->
         <div class="dropdown d-sm-none">
-            <button class="btn btn-secondary dropdown-toggle bg-info" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle bg-info text-black" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                 Menu
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">PROFILE</a></li>
-                <li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">SKILL</a></li>
-                <li><a class="dropdown-item" data-bs-toggle="tab" data-bs-target="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">PROJECT</a></li>
+                <li><a class="dropdown-item" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">PROFILE</a></li>
+                <li><a class="dropdown-item" id="nav-skill-tab" data-bs-toggle="tab" data-bs-target="#nav-skill" role="tab" aria-controls="nav-skill" aria-selected="false">SKILL</a></li>
+                <li><a class="dropdown-item" id="nav-project-tab" data-bs-toggle="tab" data-bs-target="#nav-project" role="tab" aria-controls="nav-project" aria-selected="false">PROJECT</a></li>
             </ul>
         </div>
 
@@ -67,7 +67,7 @@
 
         <!--    NavTab Display content-->
     <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <div class="d-flex flex-column align-items-center container-fluid">
                 <div class="card shadow-lg">
                     <div class="card-img-top text-center p-4" >
@@ -88,13 +88,13 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="tab-pane fade" id="nav-skill" role="tabpanel" aria-labelledby="nav-skill-tab">
             <div class="container-fluid">
                 <h2 class="text-center mb-3 font-weight-bold">My Skills</h2>
                 <p>Sed auctor urna sit amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet. Ut a blandit elit, vitae volutpat nunc. Nam posuere urna sagittis lectus eleifend viverra. Quisque mauris nunc, viverra vitae sodales non, auctor in diam. Sed dignissim pulvinar sapien sed fermentum. Praesent interdum turpis ut neque tristique ornare. Nam dictum est sed sem elementum rutrum. Nam a mollis turpis.</p>
             </div>
         </div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="tab-pane fade" id="nav-project" role="tabpanel" aria-labelledby="nav-project-tab">
             <div class="container-fluid">
                 <h2 class="text-center mb-3 font-weight-bold">My Projects</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo nec ligula viverra, quis facilisis nunc vehicula. Maecenas purus orci, efficitur in dapibus vel, rutrum in massa. Sed auctor urna sit amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet.</p>
