@@ -8,6 +8,7 @@
 
     <title>My Portfolio</title>
 <!--    bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <!--    css-->
     <link rel="stylesheet" href="css/Layout.css">
@@ -21,7 +22,7 @@
 </head>
 <body>
 <div class="tabs-to-dropdown">
-    <div class="nav-wrapper d-flex align-items-center justify-content-between" style="background-color: antiquewhite">
+    <nav class="nav-wrapper navbar navbar-inverse navbar-fixed-top d-flex align-items-center justify-content-between" style="background-color: antiquewhite">
         <!-- Left side tab -->
         <ul class="nav nav-pills d-none d-sm-flex" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -59,7 +60,7 @@
                 <a href="https://www.linkedin.com/in/minh-nguyen-723046263/" target="_blank"><i class="fa-brands fa-linkedin fa-xl fa-bounce" style="color: #0a66c2;"></i></a>
             </li>
         </ul>
-    </div>
+    </nav>
 
 
         <!--    NavTab Display content-->
@@ -91,9 +92,11 @@
         <div class="tab-pane fade" id="nav-skill" role="tabpanel" aria-labelledby="nav-skill-tab">
             <div class="container-fluid">
                 <h1>Learning Path</h1>
-                <p><span>Applied to my learning= " <i class="fa-regular fa-circle-check fa-shake" style="color: #00bd16;"></i> "</span></p>
-                <p><span>Not Applied to my learning= " <i class="fas fa-minus"></i> "</span></p>
-                <p><span>Interested in learning = " <i class="fa-solid fa-bullseye fa-beat" style="color: #ff0000;"></i> "</span></p>
+                <ul>
+                    <li>Applied to my learning= " <i class="fa-regular fa-circle-check fa-shake" style="color: #00bd16;"></i> "</li>
+                    <li>Not Applied to my learning= " <i class="fas fa-minus"></i> "</li>
+                    <li>Interested in learning = " <i class="fa-solid fa-bullseye fa-beat" style="color: #ff0000;"></i> "</li>
+                </ul>
                 <hr>
                 <div class="container">
                     <table class="table table-hover">
@@ -171,13 +174,6 @@
                             <td><i class="fas fa-minus"></i></td>
                             <td><i class="fa-solid fa-bullseye fa-beat" style="color: #ff0000;"></i></td>
                         </tr>
-                        <tr>
-                            <th scope="row">Tailwind CSS</th>
-                            <td><i class="fas fa-minus"></i></td>
-                            <td><i class="fas fa-minus"></i></td>
-                            <td><i class="fas fa-minus"></i></td>
-                            <td><i class="fa-solid fa-bullseye fa-beat" style="color: #ff0000;"></i></td>
-                        </tr>
                         </tbody>
                     </table>
                     <div class="d-flex" style="height: 89px;">
@@ -198,7 +194,7 @@
                             <td><i class="fas fa-minus"></i></td>
                         </tr>
                         <tr>
-                            <th scope="row">JUnite</th>
+                            <th scope="row">JUnit</th>
                             <td><i class="fas fa-minus"></i></td>
                             <td><i class="fa-regular fa-circle-check fa-shake" style="color: #00bd16;"></i></td>
                         </tr>
@@ -244,8 +240,7 @@
 <!--        My Projects-->
         <div class="tab-pane fade" id="nav-project" role="tabpanel" aria-labelledby="nav-project-tab">
             <div class="container-fluid">
-                <h2 class="text-center mb-3 font-weight-bold">My Projects</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo nec ligula viverra, quis facilisis nunc vehicula. Maecenas purus orci, efficitur in dapibus vel, rutrum in massa. Sed auctor urna sit amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet.</p>
+                <h1>sakdfjasdfasdf</h1>
             </div>
         </div>
     </div>
@@ -254,7 +249,8 @@
 
 
 
-<!--bootstrap CDN-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!--bootstrap JS CDN-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
