@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <!--    css-->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/card.css">
 <!--    js-->
     <script src="js/main.js"></script>
 <!--    JQuery CDN-->
@@ -25,13 +25,13 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 py-5 d-flex flex-column align-items-center">
-                <img class="shadow-lg" src="images/Profile-Photo.jpeg" style="border-radius: 68%; width: 35%; border: 3px solid #0dcaf0; padding: 5px" alt="Profile Img">
-                <h1 class="card-title">Minh Nguyen</h1>
+                <img class="shadow-lg my-2" src="images/Profile-Photo.jpeg" style="border-radius: 68%; width: 35%; border: 3px solid #FFFFFF99; padding: 5px" alt="Profile Img">
+                <h1 class="card-title my-2">MINH NGUYEN</h1>
                 <h5>Full-Stack Software Developer</h5>
-                <ul class="list-group list-group-flush">
-                    <li><i class="fa-solid fa-phone"></i>   (346) 567-8989</li>
-                    <li><i class="fa-solid fa-envelope"></i>   quangminh.nguyen8989@gmail.com</li>
-                    <li class=""><i class="fa-solid fa-map-location-dot"></i>   Houston, TX</li>
+                <ul class="list-group list-group-flush" >
+                    <li><a href="tel:+13465678989"><i class="fa-solid fa-phone mr-2"></i>(346) 567-8989</a></li>
+                    <li><a href="mailto:quangminh.nguyen8989@gmail.com"><i class="fa-solid fa-envelope mr-2"></i>quangminh.nguyen8989@gmail.com</a></li>
+                    <li><a href="https://www.google.com/maps/place/Houston,+TX/@29.8131113,-96.583195,9z/data=!3m1!4b1!4m6!3m5!1s0x8640b8b4488d8501:0xca0d02def365053b!8m2!3d29.7604267!4d-95.3698028!16zL20vMDNsMm4?entry=ttu" target="_blank"><i class="fa-solid fa-map-location-dot mr-2"></i> Houston, TX</a></li>
                 </ul>
             </div>
             <div class="col-lg-5">
@@ -125,14 +125,52 @@
         </g>
     </svg>
 </header>
+<div id="myProject" class="d-flex flex-column align-items-center my-5">
+    <article class="postcard dark" style="width: 90%">
+        <a class="postcard__img_link">
+            <img class="postcard__img" src="images/WeatherMapPJ.PNG" alt="Image Title" />
+        </a>
+        <div class="postcard__text">
+            <h1 class="postcard__title">My Weather Map Project</h1>
+            <div class="postcard__subtitle small">
+                <p><strong>SKILLS:</strong> HTML, CSS, Bootstrap,  jQuery, AJAX, OpenWeatherMap API, mapbox API, and Test-Driven Development.</p>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">A weather application that gives the forecast for locations around the world. The application is designed with a clean and intuitive interface that allows users to quickly and easily access the information they need. The application makes use of the latest weather data to provide hourly and daily forecasts for a variety of metrics, including temperature, precipitation, wind speed, and humidity.</div>
+            <ul class="postcard__tagbox">
+                <li class="tag__item play">
+                    <a href="https://minhnguyen8989.github.io/Mapbox_Weather_API_Project/" target="_blank"><i class="fas fa-play mr-2" style="color: #fd2121"></i>Live Site</a>
+                </li>
+                <li class="tag__item play">
+                    <a href="https://github.com/minhnguyen8989/Mapbox_Weather_API_Project" target="_blank"><i class="fa-solid fa-code mr-2" style="color: #fdea21"></i>Repository</a>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <article class="postcard dark" style="width: 90%" >
+        <a class="postcard__img_link">
+            <img class="postcard__img" src="images/ColorMePJ.PNG" alt="Image Title" />
+        </a>
+        <div class="postcard__text">
+            <h1 class="postcard__title">Color Me - Gaming Project</h1>
+            <div class="postcard__subtitle small">
+                <p><strong>SKILLS:</strong> HTML, CSS, JavaScript, Bootstrap and jQuery</p>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">The Color Me Project is an interactive game that allows users to control a ghost character and change its color by moving it to different color icons. It Provides an engaging and interactive experience for users on both PC and mobile devices. On the desktop, the game listens to keydown events to detect arrow key presses ( ↑  ↓  ← →  ) and updates the ghost’s position accordingly. On mobile devices, the game utilizes virtual buttons with click event listeners to move the ghost character.</div>
+            <ul class="postcard__tagbox">
+                <li class="tag__item play">
+                    <a href="https://minhnguyen8989.github.io/Color_Me_Project/" target="_blank"><i class="fas fa-play mr-2" style="color: #fd2121"></i>Live Site</a>
+                </li>
+                <li class="tag__item play">
+                    <a href="https://github.com/minhnguyen8989/Color_Me_Project" target="_blank"><i class="fa-solid fa-code mr-2" style="color: #fdea21"></i>Repository</a>
+                </li>
+            </ul>
+        </div>
+    </article>
+</div>
 <div class="d-flex flex-column align-items-center">
-    <h1>Projects</h1>
-    <div class="border border-primary my-3" style="width:90%; height: 300px">
-        <h1>Project 1</h1>
-    </div>
-    <div class="border border-primary my-3" style="width:90%; height: 300px">
-        <h1>project 2</h1>
-    </div>
+    <h1>My Skills</h1>
 </div>
 
 <!--bootstrap JS CDN-->

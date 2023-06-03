@@ -1,5 +1,8 @@
-body {
-    background-color: #f8f8fb;
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+
+
+h1, h5 {
+    font-family: 'Source Serif Pro', serif;
 }
 
 .masthead {
@@ -24,7 +27,7 @@ body {
     z-index: 1
 }
 
-.masthead h2 {
+.masthead h5 {
     color: rgba(255, 255, 255, .6);
     font-weight: 600;
     z-index: 1;
