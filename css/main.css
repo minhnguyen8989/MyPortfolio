@@ -4,6 +4,9 @@
 h1, h5 {
     font-family: 'Source Serif Pro', serif;
 }
+body {
+    background-color: #f8f8fb;
+}
 
 .masthead {
     padding: 3rem 0 7rem;
