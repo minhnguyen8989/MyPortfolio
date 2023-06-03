@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
 
 
+
+body {
+    background-color: #f8f8fb;
+}
+
 h1, h5 {
     font-family: 'Source Serif Pro', serif;
 }
-body {
-    background-color: #f8f8fb;
+
+a {
+    text-decoration: none;
 }
 
 .masthead {
@@ -39,18 +45,18 @@ body {
 
 .masthead a {
     color: rgba(255, 255, 255, .8);
-    text-decoration: underline;
-    z-index: 1
+    text-decoration: none;
+    z-index: 1;
+}
+
+.masthead li {
+    list-style-type: none;
 }
 
 .masthead a:hover {
-    color: #fff
-}
+    color: #39e8b8;
 
-.masthead a:active {
-    text-decoration: none
 }
-
 @media(min-width:992px) {
     .masthead h1 {
         font-size: 3rem
