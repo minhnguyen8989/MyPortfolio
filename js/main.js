@@ -1,4 +1,3 @@
-const $tabsToDropdown = $(".tabs-to-dropdown");
 
 function generateDropdownMarkup(container) {
     const $navWrapper = container.find(".nav-wrapper");

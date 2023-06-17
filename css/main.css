@@ -128,15 +128,9 @@ a {
 .border-bottom-blue, .border-bottom-green, .border-bottom-red, .border-bottom-yellow {
     border-bottom: .4rem solid!important;
 }
-.shadow-lg {
-    box-shadow: 0 2rem 1.5rem -1.5rem rgba(33,37,41,.15),0 0 1.5rem .5rem rgba(33,37,41,.05)!important;
-}
-.border-0 {
-    border: 0!important;
-}
 
 footer {
     font-family: 'Caveat', cursive;
     font-family: 'Comforter', cursive;
-    font-size: 6rem;
+    font-size: 2rem;
 }
