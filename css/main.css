@@ -29,7 +29,7 @@ a {
 }
 
 .masthead h1 {
-    color: #fff;
+    color: #fcf3db;
     font-weight: 700;
     font-size: 2rem;
     line-height: 1.1;
@@ -37,10 +37,15 @@ a {
 }
 
 .masthead h5 {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(252, 243, 219);
     font-weight: 600;
     z-index: 1;
     font-size: 1.2rem
+}
+
+.masthead p {
+    font-weight: 600;
+    color: rgb(252, 243, 237);
 }
 
 .masthead a {
