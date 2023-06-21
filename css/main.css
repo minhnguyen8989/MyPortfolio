@@ -29,7 +29,7 @@ a {
 }
 
 .masthead h1 {
-    color: #fff;
+    color: #fcf3db;
     font-weight: 700;
     font-size: 2rem;
     line-height: 1.1;
@@ -37,10 +37,15 @@ a {
 }
 
 .masthead h5 {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(252, 243, 219);
     font-weight: 600;
     z-index: 1;
     font-size: 1.2rem
+}
+
+.masthead p {
+    font-weight: 600;
+    color: rgb(252, 243, 237);
 }
 
 .masthead a {
@@ -56,14 +61,6 @@ a {
 .masthead a:hover {
     color: #39e8b8;
 
-}
-@media(min-width:992px) {
-    .masthead h1 {
-        font-size: 3rem
-    }
-    .masthead h2 {
-        font-size: 1.5rem
-    }
 }
 
 .masthead .masthead-cards {
@@ -103,15 +100,15 @@ a {
 }
 
 
-.masthead .masthead-cards .card.border-bottom-green:hover {
+.masthead .masthead-cards .card.border-bottom-blue:hover {
     color: #0a66c2
 }
 
-.masthead .masthead-cards .card.border-bottom-red:hover {
+.masthead .masthead-cards .card.border-bottom-yellow:hover {
     color: #ffc107
 }
 
-.masthead .masthead-cards .card.border-bottom-yellow:hover {
+.masthead .masthead-cards .card.border-bottom-purple:hover {
     color: #8111b1
 }
 
@@ -119,13 +116,9 @@ a {
     padding: 1rem 0 4rem
 }
 
-@media(min-width:992px) {
-    .masthead-page h1 {
-        font-size: 2.5rem
-    }
-}
 
-.border-bottom-blue, .border-bottom-green, .border-bottom-red, .border-bottom-yellow {
+
+.border-bottom-blue, .border-bottom-black, .border-bottom-purple, .border-bottom-yellow {
     border-bottom: .4rem solid!important;
 }
 
@@ -134,3 +127,20 @@ footer {
     font-family: 'Comforter', cursive;
     font-size: 2rem;
 }
+
+@media(min-width:992px) {
+    .masthead h1 {
+        font-size: 3rem
+    }
+    .masthead h2 {
+        font-size: 1.5rem
+    }
+
+    .masthead-page h1 {
+        font-size: 2.5rem
+    }
+}
+
+/*@media(min-width:992px) {*/
+/*    */
+/*}*/
