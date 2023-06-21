@@ -62,14 +62,6 @@ a {
     color: #39e8b8;
 
 }
-@media(min-width:992px) {
-    .masthead h1 {
-        font-size: 3rem
-    }
-    .masthead h2 {
-        font-size: 1.5rem
-    }
-}
 
 .masthead .masthead-cards {
     position: relative;
@@ -124,11 +116,7 @@ a {
     padding: 1rem 0 4rem
 }
 
-@media(min-width:992px) {
-    .masthead-page h1 {
-        font-size: 2.5rem
-    }
-}
+
 
 .border-bottom-blue, .border-bottom-black, .border-bottom-purple, .border-bottom-yellow {
     border-bottom: .4rem solid!important;
@@ -139,3 +127,20 @@ footer {
     font-family: 'Comforter', cursive;
     font-size: 2rem;
 }
+
+@media(min-width:992px) {
+    .masthead h1 {
+        font-size: 3rem
+    }
+    .masthead h2 {
+        font-size: 1.5rem
+    }
+
+    .masthead-page h1 {
+        font-size: 2.5rem
+    }
+}
+
+/*@media(min-width:992px) {*/
+/*    */
+/*}*/
