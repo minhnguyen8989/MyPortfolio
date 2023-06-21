@@ -103,15 +103,15 @@ a {
 }
 
 
-.masthead .masthead-cards .card.border-bottom-green:hover {
+.masthead .masthead-cards .card.border-bottom-blue:hover {
     color: #0a66c2
 }
 
-.masthead .masthead-cards .card.border-bottom-red:hover {
+.masthead .masthead-cards .card.border-bottom-yellow:hover {
     color: #ffc107
 }
 
-.masthead .masthead-cards .card.border-bottom-yellow:hover {
+.masthead .masthead-cards .card.border-bottom-purple:hover {
     color: #8111b1
 }
 
@@ -125,7 +125,7 @@ a {
     }
 }
 
-.border-bottom-blue, .border-bottom-green, .border-bottom-red, .border-bottom-yellow {
+.border-bottom-blue, .border-bottom-black, .border-bottom-purple, .border-bottom-yellow {
     border-bottom: .4rem solid!important;
 }
 
