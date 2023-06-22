@@ -112,6 +112,10 @@ a {
     color: #8111b1
 }
 
+.masthead .masthead-cards .card.border-bottom-black:hover {
+    color: #5b5959
+}
+
 .masthead-page {
     padding: 1rem 0 4rem
 }
